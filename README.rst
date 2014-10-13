@@ -13,9 +13,11 @@ Usage
     
     viewDNS python API
     
-    optional arguments:
+    mandatory arguments:  
       -ak                   your api key from viewdns.info
       -t                	target you want to request
+    
+    optional arguments:
       -al                   Abuse Contact Lookup
       -asnl                 ASN Lookup
       -cft                  Chinese Firewall Test
