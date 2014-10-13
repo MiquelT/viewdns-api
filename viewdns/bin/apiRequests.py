@@ -46,7 +46,7 @@ def domain_ip_whois(key,target,output):
 
 
 def free_email_lookup(key,target,output):
-    url = url = url_header + "freemail" + params %(target,key,output)
+    url = url = url_header + "freeemail" + params %(target,key,output)
     consulter(output,url)
 
 
@@ -134,7 +134,13 @@ def not_implemented():
 def consulter(output,url):
     f = urllib2.urlopen(url)
     resp = f.read()
-    printer(output,resp)
+    if "paid API keys only" in resp:
+        print resp
+    else:
+        try:
+            printer(output,resp)
+        except Exception, e:
+            print "\nSorry, Something went wrong.\n\ntry:\n\t- Check your APIKEY\n\t- Check the target\n"
 
 
 def printer(output,resp):

@@ -65,7 +65,9 @@ def main():
 
     key = args.apikey
     output = args.output
+
     target = args.target
+
 
     if args.al:
         abuse_contact_lookup(key,target,output)
