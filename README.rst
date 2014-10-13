@@ -60,7 +60,7 @@ Como puede ayudar
 Si encuentra cualquier error o problema puede contactar conmigo en `Twitter`_  por `email`_.
 
 
-.. _viewdns.info: http://viewdns.info
+.. _viewdns: http://viewdns.info
 .. _Twitter: https://twitter.com/miqueltur
 .. _email: mailto:miquel.tur.m@gmail.com
 .. _http\://creativecommons.org/licenses/by-nc/4.0/: http://creativecommons.org/licenses/by-nc/4.0/
