@@ -1,4 +1,4 @@
-# viewdns API
+viewdns API
 =========
 
 API para el portal `viewdns`_ .
@@ -14,8 +14,8 @@ Usage
     viewDNS python API
     
     optional arguments:
-      -ak APIKEY, --apikey APIKEY	your api key from viewdns.info
-      -t TARGET, --target TARGET	target you want to request
+      -ak                   your api key from viewdns.info
+      -t                	target you want to request
       -al                   Abuse Contact Lookup
       -asnl                 ASN Lookup
       -cft                  Chinese Firewall Test
